@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(73, 7, 7);
+    color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin: 25px;
+    list-style: none;
+    
+}
+header h1{
+    margin: 12px;
+}
+header li:hover{
+    color: rgba(243, 59, 3, 0.438);
+}
+header h1:hover{
+    color: rgba(243, 59, 3, 0.438);
+}
+#banner{
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/13/11/44/coffee-4334647_1280.jpg);
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(94, 28, 3);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+.col{
+    width: 350px;
+    height: 380px;
+    background-color: rgb(192, 104, 4);
+    border: 2px solid whitesmoke;
+
+}
+img{
+    width: 350px;
+    height: 354px;
+    background-position: bottom;
+  
+}
+h3{
+    text-align: center;
+    padding: 3px;
+    background-color: blanchedalmond;
+}
+footer{
+    background-color: rgba(236, 151, 40, 0.87);
+    width: 100%;
+    height: 300px;
+}
+.s{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(240, 177, 117);
+    padding: 6px;
+}
+#h{
+    font-size: xx-large;
+    text-align: center;
+    text-shadow: 2px 2px beige;
+    color: rgb(0, 0, 0);
+    padding-top: 3px;
+    padding-bottom: 15px;
+   
+}
+#g{
+    width: 200px;
+    height: 180px; 
+    float: right;
+    border: 2px dashed black;
+    margin: 1px 30px 10px 20px;
+}
+#q{
+    text-align: justify;
+    border: 2px dashed black;
+    margin: 1px 30px 1px 30px;
+}
+.d{
+    width: 100%;
+    height: 300px;
+    /* background-color: rgb(94, 28, 3); */
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(https://www.adivedanatural.com/cdn/shop/articles/smeeling-coffee-beans_900x_5148e663-e441-4642-af81-ade43296e6b5_900x.jpg?v=1615107959);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    
+}
+.f{
+    width: 350px;
+    height: 300px;
+    /* background-color: rgb(192, 104, 4); */
+    /* justify-content: center; */
+    margin: 4px 30px 20px 30px;
+    color: white;
+}
